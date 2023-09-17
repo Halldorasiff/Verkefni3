@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+.header-box { 
+    background-color: #2f0505;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom-color: #ffe7ae;
+    border-style: solid;
+    border-bottom: 8px solid #ffe7ae;
+    color: #ffe7ae;
+    text-align: center;
+}
+
+
+.body {
+font-family: "Lora";
+display: inline-block;
+}
+
+
+p {
+    line-height: 1.75;
+}
+
+main {
+    padding: 1rem;
+    margin: 0 auto;
+    margin-right: -30px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.bla {
+    display: block;
+    padding: 1rem;
+    background-color: #2f0505;
+    border-bottom: 8px solid #ffe7ae;
+    color: #ffe7ae;
+    text-align: center;
+}
+nav {
+    background-color: #fff9ee;
+    margin-bottom: 1rem;
+}
+nav ul {
+    text-align: center;
+    color: #2f0505;
+}
+nav ul li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+forsida-b {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 45%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.order1 {
+    border-top: 2px solid #ffe7ae;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.order1 ul li {
+    display: inline-block;
+    width: 45%;
+    vertical-align: text-top;
+    margin-bottom: 1rem;
+}
+
+.order2 {
+    padding: 0.5rem;
+    border-top: 2px solid #ffe7ae;
+}
+
+a {
+    font-weight: bold;
+    color: inherit;
+}
+
+main {
+    margin: 0 auto;
+    margin-right: -30px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.starfsm {
+    padding: 1rem;
+    margin: 0auto;
+}
+.starfsm li {
+    margin: 0;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+
+.starfsm img {
+    max-width: 100;
+    max-height: 100%;
+    vertical-align: bottom;
+    object-fit: cover;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffe7ae;
+}
+
+table td {
+    padding: 8px 12px;
+}
+
+table th {
+    font-weight: bold;
+}
+
+form fieldset {
+    padding: 3rem;
+    border: 2px solid #ffe7ae;
+    display: 3rem;
+    vertical-align: top;
+}
+
+form label {
+    display: block;
+}
+
+form legend {
+    width: 100%;
+    font-weight: bold;
+}
+
+footer {
+    color: #ffe7ae;
+    background-color: #2f0505;
+    border-top: 8px solid #ffe7ae;
+  }
+
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 2rem;
+    text-align: center;    
+}
+
+.side-box {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;  
+    max-width: 1000px;
+    padding: 2rem;
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dt dd {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sr-only:not(:focus):not(:active) {
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
